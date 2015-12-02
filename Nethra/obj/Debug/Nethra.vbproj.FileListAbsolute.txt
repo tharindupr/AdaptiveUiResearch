@@ -1,0 +1,30 @@
+E:\Workdir\Nethra\Nethra\bin\Nethra.dll.config
+E:\Workdir\Nethra\Nethra\bin\Nethra.dll
+E:\Workdir\Nethra\Nethra\bin\Nethra.pdb
+E:\Workdir\Nethra\Nethra\bin\Nethra.xml
+E:\Workdir\Nethra\Nethra\obj\Debug\Nethra.Resources.resources
+E:\Workdir\Nethra\Nethra\obj\Debug\Nethra.vbproj.GenerateResource.Cache
+E:\Workdir\Nethra\Nethra\obj\Debug\Nethra.dll
+E:\Workdir\Nethra\Nethra\obj\Debug\Nethra.xml
+E:\Workdir\Nethra\Nethra\obj\Debug\Nethra.pdb
+E:\Workdir\Nethra\Nethra\obj\Debug\Nethra.vbprojResolveAssemblyReference.cache
+C:\Users\tharindur\AppData\Roaming\Skype\My Skype Received Files\Nethra\Nethra\Nethra\bin\Nethra.dll.config
+C:\Users\tharindur\AppData\Roaming\Skype\My Skype Received Files\Nethra\Nethra\Nethra\bin\Nethra.dll
+C:\Users\tharindur\AppData\Roaming\Skype\My Skype Received Files\Nethra\Nethra\Nethra\bin\Nethra.pdb
+C:\Users\tharindur\AppData\Roaming\Skype\My Skype Received Files\Nethra\Nethra\Nethra\bin\Nethra.xml
+C:\Users\tharindur\AppData\Roaming\Skype\My Skype Received Files\Nethra\Nethra\Nethra\obj\Debug\Nethra.vbprojResolveAssemblyReference.cache
+C:\Users\tharindur\AppData\Roaming\Skype\My Skype Received Files\Nethra\Nethra\Nethra\obj\Debug\Nethra.Resources.resources
+C:\Users\tharindur\AppData\Roaming\Skype\My Skype Received Files\Nethra\Nethra\Nethra\obj\Debug\Nethra.vbproj.GenerateResource.Cache
+C:\Users\tharindur\AppData\Roaming\Skype\My Skype Received Files\Nethra\Nethra\Nethra\obj\Debug\Nethra.dll
+C:\Users\tharindur\AppData\Roaming\Skype\My Skype Received Files\Nethra\Nethra\Nethra\obj\Debug\Nethra.xml
+C:\Users\tharindur\AppData\Roaming\Skype\My Skype Received Files\Nethra\Nethra\Nethra\obj\Debug\Nethra.pdb
+D:\Nethra\Nethra\bin\Nethra.dll.config
+D:\Nethra\Nethra\bin\Nethra.dll
+D:\Nethra\Nethra\bin\Nethra.pdb
+D:\Nethra\Nethra\bin\Nethra.xml
+D:\Nethra\Nethra\obj\Debug\Nethra.vbprojResolveAssemblyReference.cache
+D:\Nethra\Nethra\obj\Debug\Nethra.Resources.resources
+D:\Nethra\Nethra\obj\Debug\Nethra.vbproj.GenerateResource.Cache
+D:\Nethra\Nethra\obj\Debug\Nethra.dll
+D:\Nethra\Nethra\obj\Debug\Nethra.xml
+D:\Nethra\Nethra\obj\Debug\Nethra.pdb
