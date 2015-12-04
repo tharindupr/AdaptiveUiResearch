@@ -67,12 +67,19 @@
     <Folder Include="html5\apps\Customers\Views\templates\" />
     <Folder Include="html5\apps\Order\ViewModels\controller\" />
     <Folder Include="html5\apps\Order\ViewModels\services\" />
+    <Folder Include="html5\apps\Travel\features\bookFlights\controllers\" />
+    <Folder Include="html5\apps\Travel\features\bookFlights\services\" />
+    <Folder Include="html5\apps\Travel\features\bookFlights\viewmodels\" />
+    <Folder Include="html5\apps\Travel\features\discounts\controllers\" />
+    <Folder Include="html5\apps\Travel\features\discounts\services\" />
+    <Folder Include="html5\apps\Travel\features\discounts\viewmodels\" />
+    <Folder Include="html5\apps\Travel\features\popularPlaces\controllers\" />
+    <Folder Include="html5\apps\Travel\features\popularPlaces\services\" />
+    <Folder Include="html5\apps\Travel\features\popularPlaces\viewmodels\" />
+    <Folder Include="html5\apps\Travel\features\searchLocation\controllers\" />
+    <Folder Include="html5\apps\Travel\features\searchLocation\services\" />
+    <Folder Include="html5\apps\Travel\features\searchLocation\viewmodels\" />
     <Folder Include="html5\apps\Travel\ViewModels\controller\" />
-    <Folder Include="html5\apps\Travel\ViewModels\features\discounts\" />
-    <Folder Include="html5\apps\Travel\ViewModels\features\popularPlaces\" />
-    <Folder Include="html5\apps\Travel\ViewModels\features\reserveHotel\" />
-    <Folder Include="html5\apps\Travel\ViewModels\features\searchFlight\" />
-    <Folder Include="html5\apps\Travel\ViewModels\features\searchLocation\" />
   </ItemGroup>
   <ItemGroup>
     <Import Include="Microsoft.VisualBasic" />
@@ -126,9 +133,18 @@
     <Content Include="html5\apps\Order\ViewModels\orderController.js" />
     <Content Include="html5\apps\Order\Views\directive-templates\grid\grid.html" />
     <Content Include="html5\apps\Order\Views\order.html" />
+    <Content Include="html5\apps\Travel\features\discounts\directives\searchLocation.js" />
+    <Content Include="html5\apps\Travel\features\discounts\views\discount.html" />
+    <Content Include="html5\apps\Travel\features\popularPlaces\directives\searchLocation.js" />
+    <Content Include="html5\apps\Travel\features\popularPlaces\views\popular.html" />
+    <Content Include="html5\apps\Travel\features\reserveHotels\views\reserve.html" />
+    <Content Include="html5\apps\Travel\features\searchLocation\views\search.html" />
     <Content Include="html5\apps\Travel\ViewModels\directives\productDirective.js" />
     <Content Include="html5\apps\Travel\ViewModels\directives\searchLocation.js" />
     <Content Include="html5\apps\Travel\ViewModels\factories\orderFactory.js" />
+    <Content Include="html5\apps\Travel\features\bookFlights\directives\bookFlights.js" />
+    <Content Include="html5\apps\Travel\features\bookFlights\views\bookflights.html" />
+    <Content Include="html5\apps\Travel\features\searchLocation\directives\searchLocation.js" />
     <Content Include="html5\apps\Travel\ViewModels\travelController.js" />
     <Content Include="html5\apps\Travel\ViewModels\travelService.js" />
     <Content Include="html5\apps\Travel\ViewModels\services\customerService.js" />

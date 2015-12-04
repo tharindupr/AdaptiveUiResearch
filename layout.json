@@ -3,7 +3,7 @@
       {  
          'cols':[  
             {  
-               'id':'search-location',
+               'id':'searchlocation',
                'span':4,
                'height':600,
                'controller':'searchController',
@@ -18,12 +18,12 @@
                      }
                   ]
                },
-               'directives':['searchDirective'
+               'directives':['search'
 
                ]
             },
             {  
-               'id':'book-hotels',
+               'id':'bookFlights',
                'span':4,
                'height':600,
                'controller':'bookController',
@@ -38,12 +38,12 @@
                      }
                   ]
                },
-               'directives':[  
+               'directives':['bookflights' 
 
                ]
             },
             {  
-               'id':'search-flights',
+               'id':'popularPlaces',
                'span':4,
                'height':600,
                'controller':'fligtsController',
@@ -58,11 +58,55 @@
                      }
                   ]
                },
-               'directives':[  
+               'directives':['popular'  
 
                ]
             }
          ]
-      }
-   ]
+      },
+	  {
+		  'cols':[  
+            {  
+               'id':'reserveHotels',
+               'span':6,
+               'height':600,
+               'controller':'searchController',
+               'feature':{  
+                  'featureId':'id',
+                  'eventCategory':'search-location',
+                  'pivicparameternames':[  
+                     {  
+                        'parameterId':'id',
+                        'eventAction':'click-search-btn',
+                        'eventValue':10
+                     }
+                  ]
+               },
+               'directives':['reserve'
+
+               ]
+            },
+			{  
+               'id':'discounts',
+               'span':6,
+               'height':600,
+               'controller':'searchController',
+               'feature':{  
+                  'featureId':'id',
+                  'eventCategory':'search-location',
+                  'pivicparameternames':[  
+                     {  
+                        'parameterId':'id',
+                        'eventAction':'click-search-btn',
+                        'eventValue':10
+                     }
+                  ]
+               },
+               'directives':['discount'
+
+               ]
+            }
+			]
+	  }
+   ]   
 }

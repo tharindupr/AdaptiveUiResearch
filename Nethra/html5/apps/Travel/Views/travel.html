@@ -1,13 +1,11 @@
 ﻿<div class="container">&nbsp;</div>
 <div class="container">   
    <div class="row" ng-repeat="rows in layout">
-      <D class="col-lg-4" ng-repeat="col in rows.cols">
+      <div class="col-lg-{{col.span}}" ng-repeat="col in rows.cols">
          <div id="directive"></div>
-
-         <search-directive></search-directive>
-
-         
-
+       
+         <div ng-include="getView(col.id,col.directives[0])"></div>
+        &nbsp;
+        
    </div>
-   
 </div>

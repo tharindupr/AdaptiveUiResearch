@@ -8,7 +8,7 @@
          var q=$q.defer();
          $http({
             method: 'GET',
-            url: 'http://localhost:8080/api/test'
+            url: 'http://54.179.157.173:8080/api/test'
          }).then(function successCallback(response) {
             q.resolve(response);
             
@@ -19,6 +19,8 @@
          
          return q.promise;
       };
+
+
 
    }]);
 
