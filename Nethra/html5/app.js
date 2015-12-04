@@ -26,7 +26,7 @@
                     .when('/customers', route.resolve('Customers', 'customers/', 'vm'))
                     .when('/order', route.resolve('Order', 'order/', 'vm'))
                     .when('/appdesigner', route.resolve('AppDesigner', 'appDesigner/', 'vm'))
-                    .when('/products',route.resolve('Product','products/','vm'))
+                    .when('/travel',route.resolve('Travel','travel/','vm'))
                     .otherwise({ redirectTo: '/customers' });
             }
     ]);

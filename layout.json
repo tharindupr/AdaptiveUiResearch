@@ -1,64 +1,64 @@
 {  
-   "rows":[  
+   'rows':[  
       {  
-         "cols":[  
+         'cols':[  
             {  
-               "id":"search-location",
-               "span":4,
-               "height":600,
-               "controller":"searchController",
-               "feature":{  
-                  "featureId":"id",
-                  "eventCategory":"search-location",
-                  "pivicparameternames":[  
+               'id':'search-location',
+               'span':4,
+               'height':600,
+               'controller':'searchController',
+               'feature':{  
+                  'featureId':'id',
+                  'eventCategory':'search-location',
+                  'pivicparameternames':[  
                      {  
-                        "parameterId":"id",
-                        "eventAction":"click-search-btn",
-                        "eventValue":10
+                        'parameterId':'id',
+                        'eventAction':'click-search-btn',
+                        'eventValue':10
                      }
                   ]
                },
-               "directives":[  
+               'directives':['searchDirective'
 
                ]
             },
             {  
-               "id":"book-hotels",
-               "span":4,
-               "height":600,
-               "controller":"bookController",
-               "feature":{  
-                  "featureId":"id",
-                  "eventCategory":"book-hotels",
-                  "pivicparameternames":[  
+               'id':'book-hotels',
+               'span':4,
+               'height':600,
+               'controller':'bookController',
+               'feature':{  
+                  'featureId':'id',
+                  'eventCategory':'book-hotels',
+                  'pivicparameternames':[  
                      {  
-                        "parameterId":"id",
-                        "eventAction":"click-book-btn",
-                        "eventValue":10
+                        'parameterId':'id',
+                        'eventAction':'click-book-btn',
+                        'eventValue':10
                      }
                   ]
                },
-               "directives":[  
+               'directives':[  
 
                ]
             },
             {  
-               "id":"search-flights",
-               "span":4,
-               "height":600,
-               "controller":"fligtsController",
-               "feature":{  
-                  "featureId":"id",
-                  "eventCategory":"search-flights",
-                  "pivicparameternames":[  
+               'id':'search-flights',
+               'span':4,
+               'height':600,
+               'controller':'fligtsController',
+               'feature':{  
+                  'featureId':'id',
+                  'eventCategory':'search-flights',
+                  'pivicparameternames':[  
                      {  
-                        "parameterId":"id",
-                        "eventAction":"click-flight-btn",
-                        "eventValue":10
+                        'parameterId':'id',
+                        'eventAction':'click-flight-btn',
+                        'eventValue':10
                      }
                   ]
                },
-               "directives":[  
+               'directives':[  
 
                ]
             }

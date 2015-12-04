@@ -28,3 +28,13 @@ D:\Nethra\Nethra\obj\Debug\Nethra.vbproj.GenerateResource.Cache
 D:\Nethra\Nethra\obj\Debug\Nethra.dll
 D:\Nethra\Nethra\obj\Debug\Nethra.xml
 D:\Nethra\Nethra\obj\Debug\Nethra.pdb
+D:\AdaptiveUiResearch\Nethra\bin\Nethra.dll.config
+D:\AdaptiveUiResearch\Nethra\bin\Nethra.dll
+D:\AdaptiveUiResearch\Nethra\bin\Nethra.pdb
+D:\AdaptiveUiResearch\Nethra\bin\Nethra.xml
+D:\AdaptiveUiResearch\Nethra\obj\Debug\Nethra.vbprojResolveAssemblyReference.cache
+D:\AdaptiveUiResearch\Nethra\obj\Debug\Nethra.Resources.resources
+D:\AdaptiveUiResearch\Nethra\obj\Debug\Nethra.vbproj.GenerateResource.Cache
+D:\AdaptiveUiResearch\Nethra\obj\Debug\Nethra.dll
+D:\AdaptiveUiResearch\Nethra\obj\Debug\Nethra.xml
+D:\AdaptiveUiResearch\Nethra\obj\Debug\Nethra.pdb

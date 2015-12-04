@@ -67,7 +67,12 @@
     <Folder Include="html5\apps\Customers\Views\templates\" />
     <Folder Include="html5\apps\Order\ViewModels\controller\" />
     <Folder Include="html5\apps\Order\ViewModels\services\" />
-    <Folder Include="html5\apps\Products\ViewModels\controller\" />
+    <Folder Include="html5\apps\Travel\ViewModels\controller\" />
+    <Folder Include="html5\apps\Travel\ViewModels\features\discounts\" />
+    <Folder Include="html5\apps\Travel\ViewModels\features\popularPlaces\" />
+    <Folder Include="html5\apps\Travel\ViewModels\features\reserveHotel\" />
+    <Folder Include="html5\apps\Travel\ViewModels\features\searchFlight\" />
+    <Folder Include="html5\apps\Travel\ViewModels\features\searchLocation\" />
   </ItemGroup>
   <ItemGroup>
     <Import Include="Microsoft.VisualBasic" />
@@ -121,13 +126,15 @@
     <Content Include="html5\apps\Order\ViewModels\orderController.js" />
     <Content Include="html5\apps\Order\Views\directive-templates\grid\grid.html" />
     <Content Include="html5\apps\Order\Views\order.html" />
-    <Content Include="html5\apps\Products\ViewModels\directives\productDirective.js" />
-    <Content Include="html5\apps\Products\ViewModels\factories\orderFactory.js" />
-    <Content Include="html5\apps\Products\ViewModels\productController.js" />
-    <Content Include="html5\apps\Products\ViewModels\productService.js" />
-    <Content Include="html5\apps\Products\ViewModels\services\customerService.js" />
-    <Content Include="html5\apps\Products\Views\directive-templates\grid\grid.html" />
-    <Content Include="html5\apps\Products\Views\product.html" />
+    <Content Include="html5\apps\Travel\ViewModels\directives\productDirective.js" />
+    <Content Include="html5\apps\Travel\ViewModels\directives\searchLocation.js" />
+    <Content Include="html5\apps\Travel\ViewModels\factories\orderFactory.js" />
+    <Content Include="html5\apps\Travel\ViewModels\travelController.js" />
+    <Content Include="html5\apps\Travel\ViewModels\travelService.js" />
+    <Content Include="html5\apps\Travel\ViewModels\services\customerService.js" />
+    <Content Include="html5\apps\Travel\Views\directive-templates\grid\grid.html" />
+    <Content Include="html5\apps\Travel\Views\directive-templates\searchLocation\search.html" />
+    <Content Include="html5\apps\Travel\Views\travel.html" />
     <Content Include="html5\main.js" />
     <Content Include="html5\routeResolver.js" />
     <Content Include="libs\angular\angular-animate.js" />
@@ -225,7 +232,7 @@
     <Content Include="libs\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="libs\bootstrap\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="libs\bootstrap\fonts\glyphicons-halflings-regular.woff2" />
-    <Content Include="html5\apps\Products\ViewModels\app.cfg" />
+    <Content Include="html5\apps\Travel\ViewModels\app.cfg" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>

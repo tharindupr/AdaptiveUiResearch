@@ -23,7 +23,7 @@
                 <ul class="nav nav-tabs">
                     <li ><a href="#/customers">Customer</a></li>
                     <li><a href="#/order">Order</a></li>
-                   <li><a href="#/products">Products</a></li>
+                   <li><a href="#/travel">Travel</a></li>
                  </ul>
                 <div data-ng-view id="ng-view"></div>
             </div>

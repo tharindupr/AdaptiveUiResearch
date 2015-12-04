@@ -1,7 +1,7 @@
 ﻿define(['require', 'app'], function (require, app) {
    'use strict';
 
-   app.register.service('ProductService',['$http','$q', function ($http,$q) {
+   app.register.service('TravelService',['$http','$q', function ($http,$q) {
 
 
       this.getLayout = function () {
