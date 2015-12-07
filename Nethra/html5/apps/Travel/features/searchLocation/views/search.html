@@ -1,5 +1,5 @@
 ﻿<div class="panel panel-default">
-   <div class="panel-heading">Search Locations</div>
+   <div class="panel-heading move">Search Locations</div>
    <div class="panel-body">
       <div class="input-group">
          <span class="input-group-btn">
@@ -11,3 +11,13 @@
          </span>
       </div>
    </div>
+   <script>
+   
+         var z = 0;
+         $(document).ready(function(){
+         
+             $("div.move").mousemove(function(){
+                 $(".move span").text(z += 1);
+             });
+         });
+   </script>

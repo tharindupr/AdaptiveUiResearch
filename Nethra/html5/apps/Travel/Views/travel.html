@@ -4,7 +4,7 @@
       <div class="col-lg-{{col.span}}" ng-repeat="col in rows.cols">
          <div id="directive"></div>
        
-         <div ng-include="getView(col.id,col.directives[0])"></div>
+         <div ng-include="getView(col.id,col.directives[0])" data-feature="{{col.directives[0]}}"></div>
         &nbsp;
         
    </div>

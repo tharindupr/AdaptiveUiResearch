@@ -1,7 +1,9 @@
 ﻿define(['routeResolver'], function () {
     'use strict';
-
     var app = angular.module('Nethra', ['ngRoute', 'routeResolverServices']);
+
+   //checing for loged in status
+
 
 
     app.config(['$routeProvider', 'routeResolverProvider', '$controllerProvider',
@@ -26,8 +28,9 @@
                     .when('/customers', route.resolve('Customers', 'Customers/', 'vm'))
                     .when('/order', route.resolve('Order', 'Order/', 'vm'))
                     .when('/appdesigner', route.resolve('AppDesigner', 'AppDesigner/', 'vm'))
-                    .when('/travel',route.resolve('Travel','Travel/','vm'))
-                    .otherwise({ redirectTo: '/customers' });
+                    .when('/travel', route.resolve('Travel', 'Travel/', 'vm'))
+                   .when('/login', route.resolve('Login', 'Login/', 'vm'))
+                    .otherwise({ redirectTo: '/login' });
             }
     ]);
 
@@ -35,3 +38,4 @@
 });
 
 
+var userid = "";

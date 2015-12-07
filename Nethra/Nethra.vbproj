@@ -65,6 +65,12 @@
     <Folder Include="html5\apps\Customers\ViewModels\controller\" />
     <Folder Include="html5\apps\Customers\Views\directive-templates\form\" />
     <Folder Include="html5\apps\Customers\Views\templates\" />
+    <Folder Include="html5\apps\Login\ViewModels\controller\" />
+    <Folder Include="html5\apps\Login\ViewModels\directives\" />
+    <Folder Include="html5\apps\Login\ViewModels\factories\" />
+    <Folder Include="html5\apps\Login\ViewModels\services\" />
+    <Folder Include="html5\apps\Login\Views\directive-templates\form\" />
+    <Folder Include="html5\apps\Login\Views\templates\" />
     <Folder Include="html5\apps\Order\ViewModels\controller\" />
     <Folder Include="html5\apps\Order\ViewModels\services\" />
     <Folder Include="html5\apps\Travel\features\bookFlights\controllers\" />
@@ -107,6 +113,18 @@
   <ItemGroup>
     <Content Include="css\app.css" />
     <Content Include="css\bootstrap.css" />
+    <Content Include="html5\apps\Login\ViewModels\loginController.js" />
+    <Content Include="html5\apps\Login\Views\login.html" />
+    <Content Include="html5\apps\Login\Views\directive-templates\field\checkbox.html" />
+    <Content Include="html5\apps\Login\Views\directive-templates\field\date.html" />
+    <Content Include="html5\apps\Login\Views\directive-templates\field\dropdown.html" />
+    <Content Include="html5\apps\Login\Views\directive-templates\field\email.html" />
+    <Content Include="html5\apps\Login\Views\directive-templates\field\hidden.html" />
+    <Content Include="html5\apps\Login\Views\directive-templates\field\password.html" />
+    <Content Include="html5\apps\Login\Views\directive-templates\field\radio.html" />
+    <Content Include="html5\apps\Login\Views\directive-templates\field\textarea.html" />
+    <Content Include="html5\apps\Login\Views\directive-templates\field\textfield.html" />
+    <Content Include="html5\apps\Login\Views\directive-templates\nethradirective\nethradirective.html" />
     <Content Include="index.html" />
     <Content Include="html5\app.js" />
     <Content Include="html5\apps\AppDesigner\controller\appDesignerController.js" />
