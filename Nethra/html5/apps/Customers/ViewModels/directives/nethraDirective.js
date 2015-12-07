@@ -4,7 +4,7 @@
    app.register.directive('formDirective', function () {
       return {
          restrict: 'E',
-         templateUrl: './html5/apps/Customers/views/directive-templates/nethradirective/nethradirective.html',
+         templateUrl: './html5/apps/Customers/Views/directive-templates/nethradirective/nethradirective.html',
          controller:['$scope', function ($scope) {
             
             $scope.submit = function () {

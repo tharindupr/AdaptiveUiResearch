@@ -4,7 +4,7 @@
    app.register.directive('gridDirective', function () {
       return {
          restrict: 'E',
-         templateUrl: './html5/apps/Order/views/directive-templates/grid/grid.html',
+         templateUrl: './html5/apps/Order/Views/directive-templates/grid/grid.html',
          controller: ['$scope', function ($scope) {
 
             $scope.submit = function () {
