@@ -23,10 +23,10 @@
                 var route = routeResolverProvider.route;
 
                 $routeProvider
-                    .when('/customers', route.resolve('Customers', 'customers/', 'vm'))
-                    .when('/order', route.resolve('Order', 'order/', 'vm'))
-                    .when('/appdesigner', route.resolve('AppDesigner', 'appDesigner/', 'vm'))
-                    .when('/travel',route.resolve('Travel','travel/','vm'))
+                    .when('/customers', route.resolve('Customers', 'Customers/', 'vm'))
+                    .when('/order', route.resolve('Order', 'Order/', 'vm'))
+                    .when('/appdesigner', route.resolve('AppDesigner', 'AppDesigner/', 'vm'))
+                    .when('/travel',route.resolve('Travel','Travel/','vm'))
                     .otherwise({ redirectTo: '/customers' });
             }
     ]);
