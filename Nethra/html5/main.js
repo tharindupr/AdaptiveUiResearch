@@ -5,6 +5,7 @@
         app: 'html5/app',
         text: 'libs/require/text',
         jquery: 'libs/jquery/jquery',
+        hoverIntent: 'libs/jquery/jquery.hoverIntent.minified',
         angular: 'libs/angular/angular',
         'angular-route': 'libs/angular/angular-route',
         urlArgs: 'v=1.1'
@@ -24,7 +25,7 @@
     priority: [
         'angular'
     ]
-    
+
 });
 
 require([
@@ -32,7 +33,8 @@ require([
     'app',
     'angular-route',
     'text',
-    'jquery'
+    'jquery',
+    'hoverIntent'
 ], function (angular, app, route, text) {
         angular.bootstrap($('#frmMain'), ['Nethra'], { strictDi: true });
     }

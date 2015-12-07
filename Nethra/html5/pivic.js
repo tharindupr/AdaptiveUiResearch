@@ -37,3 +37,25 @@ function trackEvent(category, action, name, value) {
    _paq.push(['trackEvent', category, action, name, value]);
 
 }
+
+
+function trackFeatures() {
+  alert();
+  $(".feature").hoverIntent(
+    function(){
+      $(this).data( "mouseover", 0 );
+      $(this).mouseover(function(){
+        $(this).data( "mouseover", $(this).data( "mouseover") + 1 );
+        console.log($(this).data( "mouseover")+" "+$(this).data( "feature"));
+      });
+
+    },
+    function(){
+      $(this).data( "mouseover", 0 );
+      $(this).unbind("mouseover");
+      console.log($(this).data( "mouseover"));
+      trackEvent($(this).data( "feature"), "mouseover", "time", $(this).data( "mouseover"))
+    }
+  );
+
+}

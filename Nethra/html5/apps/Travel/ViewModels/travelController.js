@@ -5,7 +5,7 @@ app.register.controller('TravelController', ['$scope','TravelService', function 
    var vm = this;
    $scope.layout = "";
    ProductService.getLayout().then(function (res) {
-      
+
       $scope.layout = res.data.rows;
       $scope.baseUrl = "html5/apps/";
       $scope.app = "Travel";
@@ -14,11 +14,15 @@ app.register.controller('TravelController', ['$scope','TravelService', function 
 
          return ($scope.baseUrl + $scope.app +"/features/"+ feature+  "/views/" + directive + ".html");
       }
-    
+
 
    });
 
-
+   $scope.init_features = function() {
+        trackFeatures();
+    }
 
    }]);
+
+
 });
