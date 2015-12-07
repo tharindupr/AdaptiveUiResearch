@@ -107,7 +107,7 @@
   <ItemGroup>
     <Content Include="css\app.css" />
     <Content Include="css\bootstrap.css" />
-    <Content Include="Default.aspx" />
+    <Content Include="index.html" />
     <Content Include="html5\app.js" />
     <Content Include="html5\apps\AppDesigner\controller\appDesignerController.js" />
     <Content Include="html5\apps\AppDesigner\view\appDesigner.html" />
@@ -152,6 +152,7 @@
     <Content Include="html5\apps\Travel\Views\directive-templates\searchLocation\search.html" />
     <Content Include="html5\apps\Travel\Views\travel.html" />
     <Content Include="html5\main.js" />
+    <Content Include="html5\pivic.js" />
     <Content Include="html5\routeResolver.js" />
     <Content Include="libs\angular\angular-animate.js" />
     <Content Include="libs\angular\angular-animate.min.js" />
@@ -195,10 +196,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Default.aspx.designer.vb">
-      <DependentUpon>Default.aspx</DependentUpon>
+      <DependentUpon>index.html</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.vb">
-      <DependentUpon>Default.aspx</DependentUpon>
+      <DependentUpon>index.html</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
