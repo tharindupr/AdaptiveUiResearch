@@ -1,6 +1,6 @@
 ﻿/// <reference path="customersController.js" />
 /// <reference path="directives/nethraDirective.js" />
-define(['require', 'app', './directives/nethraDirective', './services/CustomerService', './factories/customerFactory'], function (require, app) {
+define(['require', 'app', './directives/nethraDirective', './services/customerService', './factories/customerFactory'], function (require, app) {
    'use strict';
 
 
