@@ -1,7 +1,14 @@
 ﻿define(['require', 'app', './travelService','../features/bookFlights/directives/bookFlights' ,'./directives/searchLocation'], function (require, app) {
    'use strict';
 
-app.register.controller('TravelController', ['$scope','TravelService', function ($scope,ProductService) {
+   app.register.controller('TravelController', ['$scope', 'TravelService', '$window','$location', function ($scope, ProductService, $window,$location) {
+
+   if ($window.userid == "") {
+         $location.path('/login');
+
+   }
+
+   alert("welcome " + $window.userid);
    var vm = this;
    $scope.layout = "";
    ProductService.getLayout().then(function (res) {

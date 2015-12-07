@@ -37,8 +37,6 @@ function trackEvent(category, action, name, value) {
    _paq.push(['trackEvent', category, action, name, value]);
 
 }
-
-
 function trackFeatures() {
   alert();
   $(".feature").hoverIntent(
