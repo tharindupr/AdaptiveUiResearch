@@ -8,7 +8,7 @@
                "controller":"searchController",
                "feature":{  
                   "featureId":"id",
-                  "eventCategory":"search-location",
+                  "eventCategory":"search",
                   "pivicparameternames":[  
                      {  
                         "parameterId":"id",
@@ -28,7 +28,7 @@
                "controller":"bookController",
                "feature":{  
                   "featureId":"id",
-                  "eventCategory":"book-hotels",
+                  "eventCategory":"bookflights",
                   "pivicparameternames":[  
                      {  
                         "parameterId":"id",
@@ -48,7 +48,7 @@
                "controller":"fligtsController",
                "feature":{  
                   "featureId":"id",
-                  "eventCategory":"search-flights",
+                  "eventCategory":"popular",
                   "pivicparameternames":[  
                      {  
                         "parameterId":"id",
@@ -72,7 +72,7 @@
                "controller":"searchController",
                "feature":{  
                   "featureId":"id",
-                  "eventCategory":"search-location",
+                  "eventCategory":"reserve",
                   "pivicparameternames":[  
                      {  
                         "parameterId":"id",
@@ -92,7 +92,7 @@
                "controller":"searchController",
                "feature":{  
                   "featureId":"id",
-                  "eventCategory":"search-location",
+                  "eventCategory":"discount",
                   "pivicparameternames":[  
                      {  
                         "parameterId":"id",

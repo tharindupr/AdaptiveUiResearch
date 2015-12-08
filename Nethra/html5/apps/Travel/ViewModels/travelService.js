@@ -10,7 +10,6 @@
             method: 'GET',
             url: 'http://52.91.17.179/AdaptiveUiResearch/Nethra/layout.json'
          }).then(function successCallback(response) {
-            console.log(response);
             q.resolve(response);
             
          }, function errorCallback(response) {
