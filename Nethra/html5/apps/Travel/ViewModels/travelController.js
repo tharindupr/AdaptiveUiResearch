@@ -12,7 +12,7 @@
    var vm = this;
    $scope.layout = "";
    ProductService.getLayout().then(function (res) {
-
+      
       $scope.layout = res.data.rows;
       $scope.baseUrl = "html5/apps/";
       $scope.app = "Travel";
