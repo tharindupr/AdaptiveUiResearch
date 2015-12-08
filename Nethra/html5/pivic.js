@@ -48,10 +48,10 @@ function trackFeatures() {
 
     },
     function(){
-      $(this).data( "mouseover", 0 );
       $(this).unbind("mouseover");
       console.log($(this).data( "mouseover"));
-      trackEvent($(this).data( "feature"), "mouseover", "time", $(this).data( "mouseover"))
+      trackEvent($(this).data( "feature"), "mouseover", "time", $(this).data( "mouseover"));
+      $(this).data( "mouseover", 0 );
     }
   );
 
