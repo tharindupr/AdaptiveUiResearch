@@ -20,7 +20,7 @@ define(['require', 'app'], function (require, app) {
 
           }
 
-          intializeUser($window.userid);
+          //intializeUser($window.userid);
           
        };
        if ($window.userid != "") {
