@@ -8,7 +8,7 @@
          var q=$q.defer();
          $http({
             method: 'GET',
-            url: 'http://52.91.17.179:8080/api/test'
+            url: 'http://52.91.17.179/AdaptiveUiResearch/Nethra/layout.json'
          }).then(function successCallback(response) {
             q.resolve(response);
             
