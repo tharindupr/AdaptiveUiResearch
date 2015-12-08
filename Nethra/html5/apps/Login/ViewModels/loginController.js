@@ -19,6 +19,8 @@ define(['require', 'app'], function (require, app) {
              $location.path('/travel');
 
           }
+
+          intializeUser($window.userid);
           
        };
        if ($window.userid != "") {
