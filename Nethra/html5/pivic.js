@@ -38,7 +38,6 @@ function trackEvent(category, action, name, value) {
 
 }
 function trackFeatures() {
-  alert();
   $(".feature").hoverIntent(
     function(){
       $(this).data( "mouseover", 0 );
@@ -57,3 +56,5 @@ function trackFeatures() {
   );
 
 }
+
+s
