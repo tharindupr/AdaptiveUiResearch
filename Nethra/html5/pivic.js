@@ -7,7 +7,7 @@ var _paq = _paq || [];
 _paq.push(['trackPageView']);
 _paq.push(['enableLinkTracking']);
 (function () {
-   var u = "//52.90.200.80/piwik/";
+   var u = "//adaptiveui.tk//piwik/";
    _paq.push(['setTrackerUrl', u + 'piwik.php']);
    _paq.push(['setSiteId', 1]);
    var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
