@@ -8,7 +8,7 @@
 
    }
 
-   alert("welcome " + $window.userid);
+   //alert("welcome " + $window.userid);
    var vm = this;
    $scope.layout = "";
    ProductService.getLayout().then(function (res) {
