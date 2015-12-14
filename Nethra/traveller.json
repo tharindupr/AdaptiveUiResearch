@@ -1,0 +1,53 @@
+{"rows":[  
+      {  
+         "cols":[  
+            {  
+               "id":"bookFlights",
+               "span":4,
+               "height":600,
+               "controller":"bookController",
+               "feature":{  
+                  "featureId":"id",
+                  "eventCategory":"bookflights",
+                  "pivicparameternames":[  
+                     {  
+                        "parameterId":"id",
+                        "eventAction":"click-book-btn",
+                        "eventValue":10
+                     }
+                  ]
+               },
+               "directives":["bookflights" 
+
+               ]
+            }
+            
+         ]
+      },
+     {
+        "cols":[  
+            {  
+               "id":"reserveHotels",
+               "span":6,
+               "height":600,
+               "controller":"searchController",
+               "feature":{  
+                  "featureId":"id",
+                  "eventCategory":"reserve",
+                  "pivicparameternames":[  
+                     {  
+                        "parameterId":"id",
+                        "eventAction":"click-search-btn",
+                        "eventValue":10
+                     }
+                  ]
+               },
+               "directives":["reserve"
+
+               ]
+            }
+        
+         ]
+     }
+   ]   
+}

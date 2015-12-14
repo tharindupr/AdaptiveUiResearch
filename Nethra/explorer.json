@@ -1,0 +1,47 @@
+{"rows":[  
+      {  
+         "cols":[  
+            {  
+               "id":"searchLocation",
+               "span":4,
+               "height":600,
+               "controller":"searchController",
+               "feature":{  
+                  "featureId":"id",
+                  "eventCategory":"search",
+                  "pivicparameternames":[  
+                     {  
+                        "parameterId":"id",
+                        "eventAction":"click-search-btn",
+                        "eventValue":10
+                     }
+                  ]
+               },
+               "directives":["search"
+
+               ]
+            },
+            {  
+               "id":"popularPlaces",
+               "span":4,
+               "height":600,
+               "controller":"fligtsController",
+               "feature":{  
+                  "featureId":"id",
+                  "eventCategory":"popular",
+                  "pivicparameternames":[  
+                     {  
+                        "parameterId":"id",
+                        "eventAction":"click-flight-btn",
+                        "eventValue":10
+                     }
+                  ]
+               },
+               "directives":["popular"  
+
+               ]
+            }
+         ]
+      }
+   ]   
+}
