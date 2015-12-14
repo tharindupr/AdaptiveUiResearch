@@ -3,7 +3,7 @@
          "cols":[  
             {  
                "id":"bookFlights",
-               "span":8,
+               "span":12,
                "height":600,
                "controller":"bookController",
                "feature":{  
@@ -28,7 +28,7 @@
         "cols":[  
             {  
                "id":"reserveHotels",
-               "span":8,
+               "span":12,
                "height":600,
                "controller":"searchController",
                "feature":{  
