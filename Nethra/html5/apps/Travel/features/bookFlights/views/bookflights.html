@@ -1,4 +1,11 @@
-﻿<div class="panel panel-default">
+﻿<script>
+  $(function() {
+    $( "#datepicker" ).datepicker();
+  });
+</script>
+
+
+<div class="panel panel-default">
    <div class="panel-heading">Flight Bookings</div>
    <div class="panel-body">
       <div class="input-group">
@@ -17,8 +24,8 @@
          <input type="text" class="form-control" placeholder="Enter city or airport">
       </div>
       <div class="row">&nbsp;</div>
-      <div class='input-group date' id='datepicker'>
-         <input type='text' class="form-control" placeholder="Select the date"/>
+      <div class='input-group date'>
+         <input type='text' class="form-control" id="datepicker" placeholder="Select the date"/>
          <span class="input-group-addon">
             <span class="glyphicon glyphicon-calendar"></span>
          </span>

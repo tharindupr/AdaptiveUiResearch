@@ -1,17 +1,25 @@
-﻿<div class="panel panel-default">
+﻿<script>
+  $(function() {
+    $( "#datepicker1" ).datepicker();
+  });
+  $(function () {
+     $("#datepicker2").datepicker();
+  });
+</script>
+<div class="panel panel-default">
    <div class="panel-heading">Hotels, gutest houses, and more...</div>
    <div class="panel-body">
 
       
       <div class="input-group">
          <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
-         <input type="text" class="form-control" placeholder="Check-in Date">
+         <input type="text" class="form-control" placeholder="Check-in Date" id="datepicker1">
       </div>
       <div class="row">&nbsp;</div>
 
       <div class="input-group">
          <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
-         <input type="text" class="form-control" placeholder="Check-out Date">
+         <input type="text" class="form-control" placeholder="Check-out Date" id="datepicker2">
       </div>
       <div class="row">&nbsp;</div>
       <div class="input-group">

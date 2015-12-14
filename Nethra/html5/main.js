@@ -7,6 +7,7 @@
         jquery: 'libs/jquery/jquery',
         hoverIntent: 'libs/jquery/jquery.hoverIntent.minified',
         angular: 'libs/angular/angular',
+        jqueryui:'libs/jquery-ui/jquery-ui',
         'angular-route': 'libs/angular/angular-route',
         urlArgs: 'v=1.1'
     },
@@ -34,7 +35,8 @@ require([
     'angular-route',
     'text',
     'jquery',
-    'hoverIntent'
+    'hoverIntent',
+    'jqueryui'
 ], function (angular, app, route, text) {
         angular.bootstrap($('#frmMain'), ['Nethra'], { strictDi: true });
     }
