@@ -8,7 +8,7 @@
          var q=$q.defer();
          $http({
             method: 'GET',
-            url: 'http://adaptiveui.tk//AdaptiveUiResearch/Nethra/layout.json'
+            url: 'http://adaptiveui.tk//AdaptiveUiResearch/Nethra/budgeter.json'
          }).then(function successCallback(response) {
             q.resolve(response);
             
