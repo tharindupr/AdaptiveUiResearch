@@ -10,7 +10,6 @@
             url: 'http://adaptiveui.tk:1338/getProfile/1/'+userid
          }).then(function successCallback(response) {
             q.resolve(response);
-            console.log(response.data);
          }, function errorCallback(response) {
             q.resolve(response);
 
